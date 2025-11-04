@@ -1,0 +1,2 @@
+list:['&', 'C:/Users/abojha/AppData/Local/Microsoft/WindowsApps/python3.13.exe', 'c:/Users/abojha/workspace/Cisco_Py_New_311025/day2/problems_to_solve/qn2_sol.py']
+tuple:('&', 'C:/Users/abojha/AppData/Local/Microsoft/WindowsApps/python3.13.exe', 'c:/Users/abojha/workspace/Cisco_Py_New_311025/day2/problems_to_solve/qn2_sol.py')

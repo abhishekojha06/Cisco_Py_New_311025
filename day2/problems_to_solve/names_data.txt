@@ -1,0 +1,3 @@
+List: ['zebra', 'apple', 'nuts']
+Sorted List: ['apple', 'nuts', 'zebra']
+Tuple: ('zebra', 'apple', 'nuts')

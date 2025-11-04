@@ -1,0 +1,2 @@
+List: ['This', 'is', 'an', 'apple']
+Tuple: ('THIS', 'IS', 'AN', 'APPLE')
