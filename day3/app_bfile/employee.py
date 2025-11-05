@@ -1,4 +1,3 @@
-
 class Employee:
     def __init__(self, id, name, job_title, salary):
         self.id = id 
@@ -12,5 +11,3 @@ class Employee:
     def __str__(self):
         #return f'{self.name}, {self.job_title}'
         return self.__repr__()
-    
-    

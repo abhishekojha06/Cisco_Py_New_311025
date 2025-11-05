@@ -1,25 +1,3 @@
-# import pickle
-# import os
-# '''this 
-# is the os concept
-# '''
-# FILE_NAME = 'employees_db.dat'
-# def read_employee():
-#     if not os.path.exists(FILE_NAME):
-#         return []
-    
-#     with open(FILE_NAME, 'rb') as input_file:
-#         return pickle.load(input_file)
-    
-# def write_employees(employees):
-    
-#     '''
-#     writes employees into db
-#     '''
-#     with open(FILE_NAME, 'wb') as output_file:
-#         pickle.dump(employees, output_file)
-
-
 '''
     binary file persistence storage 
     using std module pickle

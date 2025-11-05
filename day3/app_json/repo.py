@@ -1,5 +1,8 @@
 import db_json as db 
 
+from log import logging
+
+
 employees = db.read_employees() #employee is object of attr (id, name, job_title, salary)
 # list of objects -> list of dict -> save to file
 # read from file -> list of dict -> list of objs
@@ -7,7 +10,9 @@ employees = db.read_employees() #employee is object of attr (id, name, job_title
 def add_employee(employee):
     employees.append(employee)
     db.write_employees(employees)
-    print('Employee Added Successfully')
+   # print('Employee Added Successfully') # previos one before the logging
+    logging.info('Employee Added Successfully') 
+    
 
 def search_employee(id): 
     I = 0
@@ -33,5 +38,5 @@ def delete_employee(id):
         employees.pop(index)
         db.write_employees(employees)
         print('Employee Deleted Successfully')
-    else: 
+    else:
         print('Employee Not Found.')
